@@ -1,0 +1,92 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+
+.padding {
+  padding: 80px 0;
+}
+
+.padding img {
+  width: 100%;
+}
+
+
+
+.navbar {
+  background-color: #23415c;
+  padding: 1% 0;
+  font-size: 1.2em;
+  position: relative;
+}
+
+.navbar-brand {
+  min-height: 55px;
+  padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #D5D5D5;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: #FFF;
+}
+
+.navbar-default .navbar-nav li a.active {
+  color: #FFF;
+}
+
+#home {
+  
+  display: table;
+  height: 70%;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: orange;
+}
+
+.landing-text h1 {
+  font-size: 450%;
+  font-weight: 700;
+}
+
+.typewrite {
+  color: orange;
+}
+
+footer {
+  width: 100%;
+  background-color: #23415C;
+  padding: 1% 5% 1% 5%;
+  color: #FFF;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 25px;
+  color: #FFF;
+}
+
+.fa:hover {
+  color: #050505;
+  text-decoration: none;
+}
+
+.icon {
+  max-width: 100px;
+}
+/*# sourceMappingURL=style.css.map */

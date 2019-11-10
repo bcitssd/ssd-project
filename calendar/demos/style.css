@@ -21,7 +21,7 @@
 }
 
 #home {
-	background: url(img/ssd.jpg) no-repeat center center fixed;
+	background: url(../img/ssd.jpg) no-repeat center center fixed;
 	display: table;
 	height: 85%;
 	position: relative;

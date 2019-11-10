@@ -1,0 +1,18 @@
+footer {
+	width: 100%;
+	background-color: $background_color_2;
+	padding: 1% 5% 1% 5%;
+	color: $color_2;
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: $color_2;
+	&:hover {
+		color: $color_4;
+		text-decoration: none;
+	}
+}
+.icon {
+	max-width: 100px;
+}

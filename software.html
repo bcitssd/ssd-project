@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Simple Sidebar - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="styles/simple-sidebar.css" rel="stylesheet">
+    <script>
+  $('bscrollspy-example').scrollspy({ target: '#list-example' })
+</script>
+
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="sidebar-heading"><a href="index.html"><img src="img/bcit.png" alt="bcit"></img></a>
+        </div>
+      <div class="list-group list-group-flush">
+
+         <a href="schedule.html" class="list-group-item list-group-item-action bg-light">schedule</a>
+         <a href="staff.html" class="list-group-item list-group-item-action bg-light">Staffs</a>
+         <a href="eresource.html" class="list-group-item list-group-item-action bg-light">E-resources</a>
+         <a href="cstudent.html" class="list-group-item list-group-item-action bg-light">Fellow students</a>
+         <a href="software.html" class="list-group-item list-group-item-action bg-light">Software requriments</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+        <button class="btn btn-primary" id="menu-toggle">Current Students</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="courses.html">courses</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="contact.html">contact</a>
+                    </li>
+            </ul>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+          <h4 id="list-item-2">Hardware requriments</h4>
+                    <p> <ul>
+                        <li>Processor (CPU) with 2 gigahertz (GHz) frequency or above</li>
+                        <li> A minimum of 2 GB of RAM</li>
+                        <li> Monitor Resolution 1024 X 768 or higher</li>
+                        <li>  A minimum of 20 GB of available space on the hard disk</li>
+                        <li>  Internet Connection Broadband (high-speed) Internet connection with a speed of 4 Mbps or higher</li>
+                        <li>  Keyboard and a Microsoft Mouse or some other compatible pointing device</li>
+                        <li>  Sound card</li>
+                        <li>  Speakers or headphones</li>
+                        <li>  Strongly Recommended - Microphone and Webcam</li>
+                        </ul>
+                    </p>
+                    <h4 id="list-item-2">Software requriments</h4>
+                    <p>
+                            <ul>
+                                    <li>Chrome* 36+</li>
+                                    <li> Mac OSX 10.8, 10.9, 10.10 or 10</li>
+                                    <li> Windows 7, Windows 8 or Windows 10</li>
+                                    <li> Java -- To view and interact with all available blackboard applications.</li>
+                                    <li>  Microsoft Office--a free copy of Office 365 </li>
+                                    </ul>
+                    </p>
+                
+                
+          
+    </div>
+  </div>
+    <!-- /#page-content-wrapper -->
+   
+  
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+<div id=footer>
+  
+</div>
+</body>
+
+</html>
